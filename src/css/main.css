@@ -1,0 +1,307 @@
+.title1{
+	font-size: 2em;
+	color:#108ee9;
+	padding-top:20px;
+}
+.title2{
+	font-size: 2em;
+	padding-top:20px;
+}
+.para1{
+	font-size:1.2em;
+	text-align:justify;
+	padding-top:20px;
+}
+
+.para2{
+	font-size:1.2em;
+	padding-top:20px;
+}
+.layout-header{
+	height:80px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Montserrat-400,sans-serif;
+}
+.layout-header a{
+	color:#666;
+}
+.layout-logo{
+	float:left;
+	padding-top:10px;
+}
+.layout-logo span{
+	font-size:1.2em;
+	float:right;
+	padding-left:3px;
+	margin-top: 2px;
+}
+.layout-logo img{
+	width: 60px;
+}
+.layout-header .ant-menu{
+	line-height: 60px;
+	border-bottom: 0;
+	font-size:1.1em;
+}
+.layout-header .ant-menu{
+	padding-top:15px;
+}
+.link{
+	color:#4169E1;
+}
+.table2{
+	width:100%;
+	  border-collapse:collapse;
+}
+.table2 tr{
+	height:50px;
+}
+.table2 th{
+	width: 33%;
+	text-align: center;
+	font-size:1.2em;
+	border: 1px solid ;
+}
+.table2 td{
+	text-align: center;
+	font-size:1.2em;
+	border: 1px solid ;
+}
+.table{
+	width:100%;
+}
+.table td{
+	padding-top:10px;
+	padding-right:20px;
+	text-align: center;
+	font-size:1.4em;
+}
+.table img{
+		width: 100%;
+	}
+.title3 {
+	font-size: 1.8em;
+	padding-top:20px;
+}
+.title4{
+    font-size: 1.6em;
+}
+.container{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:15px;
+}
+.footContainer{
+	margin-right: auto;
+    margin-left: auto;
+}
+.img1{
+	width: 40%;
+	float:right;
+	padding-top:20px;
+	padding-left: 10px;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.text{
+	width: 60%;
+	float:left;
+}
+.videoContainer {
+	margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hkia_ul li{
+	margin-left:20px;
+}
+.hkia_ul li{
+	list-style-type:disc
+}
+.layout-header{
+	width: 1020px;
+	/*box-shadow: 0 10px 40px rgba(0,0,0,.1);*/
+}
+.PicSlides {
+	margin-top: 20px;
+}
+.mainHeader{
+	box-shadow: 0 10px 40px rgba(0,0,0,.1);
+}
+.compathnion{
+	width: 34%;
+	float:left;
+	font-family: Montserrat-400,sans-serif;
+    color:white;
+}
+.logoFoot {
+	float:left;
+}
+.compathnion a{
+	color:white;
+}
+.logoFoot img{
+	width:60px;
+}
+.logoFoot span{
+	font-size: 1.2em;
+    float: right;
+    padding-left: 3px;
+    margin-top: 2px;
+}
+.contact{
+		margin-top: 10px;
+		float:left;
+		font-size:1.2em;
+}
+.contact img{
+	width: 20px;
+}
+.contact a{
+	color:white;
+}
+.afterlogo{
+	clear:both;
+}
+.linkage{
+	width:33%;
+	float:left;
+}
+.linkage{
+	padding-top:20px;
+	padding-left:10px;
+	font-family: Montserrat-400,sans-serif;
+	font-size:1.6em;
+	color:white;
+	border-left: 1px dotted #fff;
+	height:140px;
+}
+.linkage a{
+	color:white;
+}
+@media (min-width: 1200px)
+{
+	.container{
+		width: 1000px;
+	}
+	.footContainer{
+		width: 1000px;
+		padding-top: 50px;
+	}
+	.table td{
+		width:585px;
+	}
+	.PicSlides img{
+		max-width: 1000px;
+	}
+	.PicSlides{
+		max-width: 1000px;
+		margin-right: auto;
+   	    margin-left: auto;
+	}
+	.PicSlides .imgContent{
+		max-height: 524px;
+		overflow:hidden;
+	}
+}
+
+
+@media (max-width: 1199px)
+{
+	.container{
+    	width: 750px;
+	}
+	.footContainer{
+		width: 750px;
+		padding-top: 40px;
+	}
+	.table td{
+		width:485px;
+	}
+	.PicSlides img{
+		max-width: 750px;
+	}
+	.PicSlides{
+		max-width: 750px;
+		margin-right: auto;
+   	    margin-left: auto;
+	}
+	.PicSlides .imgContent{
+		max-height: 400px;
+		overflow:hidden;
+	}
+}
+@media (max-width: 991px)
+{
+	.container{
+    width: 750px;
+	}
+	.footContainer{
+		width: 750px;
+		padding-top:30px;
+	}
+	.table td{
+		width:375px;
+	}
+	.PicSlides img{
+		max-width: 750px;
+	}
+	.PicSlides{
+		max-width: 750px;
+		margin-right: auto;
+   	    margin-left: auto;
+	}
+	.PicSlides .imgContent{
+		max-height: 400px;
+		overflow:hidden;
+	}
+}
+
+html{
+	 height:100%;
+	}
+body{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#mount{
+	min-height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+.other{
+	 font-family: Montserrat-400,sans-serif;
+	 font-size:1.4em;
+}
+.other a{
+	color:white;
+}
+.panel
+{padding-bottom:240px;
+	/*background-color: #bdb76b;*/
+}/* main的padding-bottom值要等于或大于footer的height值 */
+.mainFooter
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:200px;
+	background-color: #031f59;
+}

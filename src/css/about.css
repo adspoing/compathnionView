@@ -1,0 +1,32 @@
+.title4{
+	padding-top: 10px;
+	color:#108ee9
+}
+.para1{
+	padding-top: 10px;
+}
+.highlight{
+	color:rgb(255, 122, 0);
+}
+
+
+@media (min-width: 1200px)
+{
+	.teamPic {
+		max-width: 1170px;
+	}
+}
+
+
+@media (min-width: 992px)
+{
+	.teamPic {
+    max-width: 970px;
+	}
+}
+@media (min-width: 768px)
+{
+	.teamPic {
+    max-width: 750px;
+	}
+}

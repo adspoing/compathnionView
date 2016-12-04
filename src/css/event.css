@@ -1,0 +1,99 @@
+.mask{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:100;
+	background:rgba(0,0,0,.8);
+}
+.allslides{
+	position: absolute;
+	z-index: 101;
+    top:0; 
+}
+.title5{
+	font-size:1.6em;
+}
+.allslides .ant-carousel{
+	/*width: 100%*/
+}
+.clearfix{
+	width: 150px;
+	height:200px;
+	margin-top: 20px;
+}
+.eventContainer
+{
+	position: absolute;
+	overflow: hidden;
+}
+.eventContainer .imgContainer{
+	margin-right: 20px;
+	position: relative;
+	float:left;
+	width: 300px;
+	height:200px;
+	top:-80px;
+}
+.eventContainer img{
+	width: 300px;
+}
+
+
+.eventContainer2
+{
+	position: absolute;
+	overflow: hidden;
+}
+.eventContainer2 .imgContainer2{
+	margin-right: 20px;
+	position: relative;
+	float:left;
+	width: 300px;
+	height:200px;
+}
+.eventContainer2 img{
+	width: 300px;
+}
+
+
+.eventContainer3
+{
+	position: absolute;
+	overflow: hidden;
+}
+.eventContainer3 .imgContainer3,.imgContainer4{
+	margin-right: 20px;
+	position: relative;
+	float:left;
+	width: 300px;
+	overflow: hidden;
+	height:200px;
+}
+.imgContainer3 img{
+	height: 200px;
+}
+
+.imgContainer4 img{
+	width: 300px;
+}
+
+.eventContainer6
+{
+	position: absolute;
+	overflow: hidden;
+}
+.eventContainer6 .imgContainer6{
+	margin-right: 20px;
+	position: relative;
+	float:left;
+	overflow: hidden;
+	height:200px;
+}
+.imgContainer6 img{
+	height: 200px;
+}
+.eventVideoContainer{
+	margin-top: 20px;
+}
